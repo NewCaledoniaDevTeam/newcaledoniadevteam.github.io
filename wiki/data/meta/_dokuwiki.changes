@@ -1,0 +1,122 @@
+1605743402	127.0.0.1	E	wiki:welcome		external edit		1705
+1605744271	216.86.94.230	E	wiki:welcome	pisaucer			-687
+1605744304	216.86.94.230	C	start	pisaucer	created		1018
+1605744400	216.86.94.230	D	wiki:welcome	pisaucer	delete		-1018
+1605744752	216.86.94.230	C	legal	pisaucer	created		941
+1605745732	216.86.94.230	E	legal				2
+1605745943	216.86.94.230	C	laws		created		14576
+1605748184	216.86.94.230	E	laws		Formatting		747
+1605748445	216.86.94.230	E	laws		[Article 2:] 		0
+1605748464	216.86.94.230	E	laws		[Article 1:] 		-2
+1605750807	216.86.94.230	E	legal	pisaucer			-3
+1605751028	216.86.94.230	C	business:redstone_solutions	pisaucer	created		57
+1605751092	216.86.94.230	E	business:redstone_solutions	pisaucer	logo added		43
+1605751190	216.86.94.230	C	business:costco	pisaucer	created		56
+1605751196	216.86.94.230	E	business:costco	pisaucer			1
+1605751662	216.86.94.230	E	business:costco	pisaucer			1583
+1605752132	216.86.94.230	C	business:apollos_bakery	pisaucer	created		255
+1605752643	216.86.94.230	C	shader	pisaucer	created		2130
+1605752792	216.86.94.230	C	business	pisaucer	created		158
+1605752830	216.86.94.230	D	business	pisaucer	removed		-158
+1605752885	216.86.94.230	C	business:businesses	pisaucer	created		207
+1605752964	216.86.94.230	E	start	pisaucer			62
+1605753040	216.86.94.230	E	start	pisaucer			118
+1605743401	127.0.0.1	E	playground:playground		external edit		25
+1605753050	216.86.94.230	D	playground:playground	pisaucer	removed		-25
+1605753218	216.86.94.230	C	sidebar	pisaucer	created		30
+1605753308	216.86.94.230	E	sidebar	pisaucer			333
+1605753346	216.86.94.230	E	start	pisaucer			-179
+1605753480	216.86.94.230	E	start	pisaucer			-535
+1605753602	216.86.94.230	E	start	pisaucer			35
+1605753624	216.86.94.230	C	namespace:page	pisaucer	created		22
+1605753911	216.86.94.230	C	business:mountaintop:redstone_solutions	pisaucer	created		637
+1605753926	216.86.94.230	D	business:redstone_solutions	pisaucer	removed		-100
+1605753967	216.86.94.230	E	business:businesses	pisaucer			57
+1605754062	216.86.94.230	C	business:mountaintop:start	pisaucer	created		241
+1605754114	216.86.94.230	E	sidebar	pisaucer			59
+1605754201	216.86.94.230	E	laws	pisaucer	Article 47		197
+1605754292	216.86.94.230	E	laws	pisaucer			1138
+1605754326	216.86.94.230	E	laws	pisaucer	[Article 27:] 		9
+1605754371	216.86.94.230	E	laws	pisaucer	[Article 29 Amendment 2 (Privacy Act):] 		286
+1605754416	216.86.94.230	E	laws	pisaucer	[Article 45:] 		308
+1605754513	216.86.94.230	E	business:mountaintop:redstone_solutions	pisaucer			12
+1605754637	216.86.94.230	E	business:mountaintop:redstone_solutions	pisaucer			75
+1605754726	216.86.94.230	D	business:businesses	pisaucer	removed		-264
+1605754729	216.86.94.230	C	business:start	pisaucer	created		264
+1605754745	216.86.94.230	E	business:start	pisaucer			-5
+1605754759	216.86.94.230	E	sidebar	pisaucer			-5
+1605754823	216.86.94.230	E	business:apollos_bakery	pisaucer			37
+1605754892	216.86.94.230	C	ncca:start	pisaucer	created		48
+1605754936	216.86.94.230	E	sidebar	pisaucer			53
+1605755259	216.86.94.230	C	ncca:smac	pisaucer	created		541
+1605755286	216.86.94.230	E	ncca:start	pisaucer			34
+1605755318	216.86.94.230	E	sidebar	pisaucer			7
+1605755548	216.86.94.230	C	ncca:kori	pisaucer	created		506
+1605755572	216.86.94.230	E	ncca:start	pisaucer			38
+1605755590	216.86.94.230	E	sidebar	pisaucer	[Pages] 		40
+1605758258	216.86.94.230	E	shader	pisaucer			905
+1605759267	216.86.94.230	C	business:mountaintop:lol	pisaucer	created		2446
+1605759303	216.86.94.230	E	business:mountaintop:start	pisaucer	[Businesses] 		29
+1605759318	216.86.94.230	E	sidebar	pisaucer	[Pages] 		46
+1605759392	216.86.94.230	E	business:mountaintop:start	pisaucer			48
+1605759521	216.86.94.230	C	business:ethan_cut_of_beef	pisaucer	created		134
+1605759563	216.86.94.230	E	business:start	pisaucer			55
+1605759574	216.86.94.230	E	sidebar	pisaucer			57
+1605760236	216.86.94.230	E	start	pisaucer			15
+1605762502	216.86.94.230	E	business:mountaintop:start	pisaucer	[Businesses] 		49
+1605763428	216.86.94.230	C	business:nct:start	pisaucer	created		684
+1605763464	216.86.94.230	E	business:start	pisaucer			42
+1605763494	216.86.94.230	E	sidebar	pisaucer	[Pages] 		46
+1605764165	216.86.94.230	C	business:nct:new_caledonia_times	pisaucer	created		1830
+1605764215	216.86.94.230	E	business:nct:start	pisaucer	[Businesses] 		37
+1605764242	216.86.94.230	E	business:start	pisaucer			62
+1605764269	216.86.94.230	E	sidebar	pisaucer	[Pages] 		66
+1605764343	216.86.94.230	E	business:nct:start	pisaucer			35
+1605764362	216.86.94.230	E	business:mountaintop:start	pisaucer	[CEO] 		1
+1605764824	216.86.94.230	C	business:nct:freedom_fighters	pisaucer	created		895
+1605764861	216.86.94.230	E	business:start	pisaucer			66
+1605764879	216.86.94.230	E	business:nct:start	pisaucer	[Businesses] 		34
+1605764917	216.86.94.230	E	sidebar	pisaucer	[Pages] 		68
+1605765524	216.86.94.230	C	business:nct:apic	pisaucer	created		1888
+1605765555	216.86.94.230	E	business:nct:start	pisaucer	[Businesses] 		22
+1605765580	216.86.94.230	E	business:start	pisaucer			64
+1605765613	216.86.94.230	E	sidebar	pisaucer			66
+1605765637	216.86.94.230	E	business:nct:start	pisaucer	[About] 		21
+1605765792	216.86.94.230	E	business:nct:new_caledonia_times	pisaucer			106
+1605765817	216.86.94.230	E	business:nct:freedom_fighters	pisaucer	[Locations] 		12
+1605765833	216.86.94.230	E	business:nct:new_caledonia_times	pisaucer	[Locations] 		-3
+1605765873	216.86.94.230	E	business:nct:freedom_fighters	pisaucer	[About] 		44
+1605766449	216.86.94.230	C	ncca:starwars	pisaucer	created		857
+1605766466	216.86.94.230	E	ncca:start	pisaucer			45
+1605766498	216.86.94.230	E	sidebar	pisaucer			59
+1605766525	216.86.94.230	E	sidebar	pisaucer	[[[sidebar|Wiki Sidebar]]] 		24
+1605766554	216.86.94.230	E	sidebar	pisaucer	[Wiki Sidebar] 		-7
+1605766966	216.86.94.230	C	ncca:amongus	pisaucer	created		735
+1605766980	216.86.94.230	E	ncca:start	pisaucer			64
+1605766998	216.86.94.230	E	sidebar	pisaucer			66
+1605767118	216.86.94.230	E	start	pisaucer			20
+1605768027	216.86.94.230	C	ncta:start	pisaucer	created		594
+1605768096	216.86.94.230	E	sidebar	pisaucer	[Pages] 		25
+1605770582	216.86.94.230	C	ncta:farms	pisaucer	created		2565
+1605770621	216.86.94.230	E	ncta:start	pisaucer			25
+1605770663	216.86.94.230	E	sidebar	pisaucer	[Pages] 		37
+1605771830	216.86.94.230	E	business:apollos_bakery	pisaucer	[History] 		854
+1605771958	216.86.94.230	E	business:apollos_bakery	pisaucer			238
+1605772112	216.86.94.230	E	business:mountaintop:lol	pisaucer	[Companies with LoL, LLC Logos] 		85
+1605772405	216.86.94.230	E	business:ethan_cut_of_beef	pisaucer	Pricing added		268
+1605772569	216.86.94.230	E	business:apollos_bakery	pisaucer	[History] 		26
+1605772596	216.86.94.230	E	laws	pisaucer	[Article 14 - Amendment 1] 		-1
+1605772648	216.86.94.230	E	business:apollos_bakery	pisaucer	[History] 		23
+1605772737	216.86.94.230	E	business:mountaintop:lol	pisaucer	[Companies with LoL, LLC Logos] 		21
+1605773060	216.86.94.230	E	business:costco	pisaucer	[CEO] 		36
+1605773123	216.86.94.230	E	business:costco	pisaucer			-10
+1605773259	216.86.94.230	E	ncca:kori	pisaucer			140
+1605773326	216.86.94.230	E	ncca:smac	pisaucer			124
+1605773368	216.86.94.230	E	ncca:kori	pisaucer			8
+1605773538	216.86.94.230	E	shader	pisaucer	[The Beta Team] 		115
+1605773781	216.86.94.230	E	shader	pisaucer			526
+1605799438	216.86.94.230	E	start	pisaucer	[Welcome to the Unofficial New Caledonia Wiki] 		1084
+1605821933	216.86.94.230	E	business:apollos_bakery	uncagedapollo61			107
+1605826273	216.86.94.230	C	business:mr_bacon_brew_co	jsspidermonkey	created		152
+1605826310	216.86.94.230	E	business:start	jsspidermonkey			54
+1605826336	216.86.94.230	E	sidebar	jsspidermonkey			55

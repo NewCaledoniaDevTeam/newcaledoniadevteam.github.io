@@ -1,0 +1,21 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1605763428;s:8:"modified";i:1605765637;}s:7:"creator";s:4:"Alan";s:4:"user";s:8:"pisaucer";s:11:"last_change";a:8:{s:4:"date";i:1605765637;s:2:"ip";s:13:"216.86.94.230";s:4:"type";s:1:"E";s:2:"id";s:18:"business:nct:start";s:4:"user";s:8:"pisaucer";s:3:"sum";s:8:"[About] ";s:5:"extra";s:0:"";s:10:"sizechange";i:21;}s:11:"contributor";a:1:{s:8:"pisaucer";s:4:"Alan";}s:5:"title";s:15:"NCT Corporation";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:15:"nct_corporation";s:5:"title";s:15:"NCT Corporation";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:4:"ceos";s:5:"title";s:4:"CEOs";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:10:"businesses";s:5:"title";s:10:"Businesses";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:9:"locations";s:5:"title";s:9:"Locations";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:5:"about";s:5:"title";s:5:"About";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:5:"links";s:5:"title";s:5:"Links";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:328:"NCT Corporation
+
+
+
+CEOs
+
+	*  Alex Snyder (New Caledonia)
+
+Businesses
+
+
+
+	*  New Caledonia Times
+	*  Freedom Fighters Law Firm
+	*  IRL by NCT
+	*  Anti Parental Involvement Coalition
+
+Locations
+
+	*  NCT Corp. Tower is located on the corner of Elmdale and Starkville STS in Twin Peaks
+	*  New Location is being work on in New Vegas";}s:8:"relation";a:3:{s:5:"media";a:2:{s:25:"business:nct:nct.logo.jpg";b:1;s:24:"business:nct:nct_wbt.png";b:1;}s:10:"references";a:3:{s:32:"business:nct:new_caledonia_times";b:1;s:29:"business:nct:freedom_fighters";b:1;s:17:"business:nct:apic";b:1;}s:10:"firstimage";s:25:"business:nct:nct.logo.jpg";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1605763428;s:8:"modified";i:1605765637;}s:7:"creator";s:4:"Alan";s:4:"user";s:8:"pisaucer";s:11:"last_change";a:8:{s:4:"date";i:1605765637;s:2:"ip";s:13:"216.86.94.230";s:4:"type";s:1:"E";s:2:"id";s:18:"business:nct:start";s:4:"user";s:8:"pisaucer";s:3:"sum";s:8:"[About] ";s:5:"extra";s:0:"";s:10:"sizechange";i:21;}s:11:"contributor";a:1:{s:8:"pisaucer";s:4:"Alan";}}}

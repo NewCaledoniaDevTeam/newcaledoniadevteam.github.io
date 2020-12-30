@@ -1,0 +1,29 @@
+====== Welcome to the Unofficial New Caledonia Wiki ======
+{{:logo.png?200|}}
+
+===== Welcome To The Nation Of The Future =====
+
+New Caledonia is a new, ambitious nation that is run entirely in Minecraft. It is run by three Councilmen: Alex Snyder (16, MS), Connor McClintic (16, Japan), and Alan Saucer (17, TN). It is a republic run entirely by youth. On this wiki you will find the New Caledonia Times, future public works projects, laws, sports events, and everything you need to know about New Caledonia.
+
+==== New Caledonia ====
+The Capitol of New Caledonia. Also, New Caledonia is the largest city. It is the only city to hold places of residence for humans. All 9 of the New Caledonian residents reside and do business here. It also houses the majestic capital Building.
+
+==== New Vegas ====
+
+New Caledonia's Sin City. Home to two large arenas, with more on the way, this is where sports and gambling in New Caledonia are headquartered. 
+
+==== Twin Peaks ====
+
+New Caledonia's Newest City. Formally know as upper New Caledonia, this is where the ideas of plots and creative began. This lead the other cities to include more plots and creative buildings.
+
+
+===== Please help =====
+
+Go on, create the page. To create a page just fill in the blank http://newcaledonia.ml/wiki/doku.php?id=NAMESPACE:PAGE. If you need help with using the syntax you can always refer to the [[wiki:syntax|syntax page]].
+
+When you create a page, just edit the [[:sidebar]] page. Everything in that page will be shown in a margin column on the side.
+
+Please be aware that everything you do is recorded.
+
+If you need any help let Alan know in the discord.
+

@@ -1,0 +1,15 @@
+====== Mission: Imposter - A Weird Waffle Project ======
+{{:ncca:among.us.logo.png?200|}}
+
+===== About =====
+Owned, Sponsored, and managed by [[ncca:start|NCCA]]
+
+===== CEOs =====
+  * Alan Saucer
+  * Nathan Ludwig
+  * Alex Snyder
+  * Joey Saucer
+
+===== Rules =====
+==== Betting Rules: ====
+Changing your bet can only happen during meetings. Bets cannot be changed if you are dead and you cannot change your bet to a dead person. Impostors cannot bet on their selves are partner when there is two impostors, instead they will win bets when less than half the crewmates have betted on them when the games ends. You cannot bet on when they're being voted out. When the person you voted dies or gets voted out, you cannot change your vote.
