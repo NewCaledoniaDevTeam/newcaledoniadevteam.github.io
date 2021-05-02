@@ -1,5 +1,4 @@
-//https://api.bedrockinfo.com/v1/status?server=ServerNewCal.ml&port=19132
-fetch("https://api.bedrockinfo.com/v1/")
+fetch("https://api.bedrockinfo.com/v1/status?server=ServerNewCal.ml&port=19132")
     .then(res => res.json())
     .then(json => {
 
