@@ -1,4 +1,4 @@
-fetch("https://api.bedrockinfo.com/v1/status?server=play.newcaledonia.ml&port=19132")
+fetch("https://api.bedrockinfo.com/v1/status?server=play.newcaledonia.us&port=19132")
     .then(res => res.json())
     .then(json => {
     
