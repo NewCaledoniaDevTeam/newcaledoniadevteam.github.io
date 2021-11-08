@@ -1,4 +1,4 @@
-fetch("https://api.bedrockinfo.com/v2/status?server=play.newcaledonia.us&port=19132")
+fetch("https://api.bedrockinfo.com/v2/status?server=play.newcaledonia.us&port=29132")
     .then(res => res.json())
     .then(json => {
 
@@ -17,7 +17,7 @@ fetch("https://api.bedrockinfo.com/v2/status?server=play.newcaledonia.us&port=19
             gamemode.innerHTML = gamemode.innerHTML.replace(`placeholder`, json["GameMode"]);
 
             var hostname = document.getElementById("hostname");
-            hostname.innerHTML = hostname.innerHTML.replace(`placeholder`, json["HostName"]);
+            hostname.innerHTML = hostname.innerHTML.replace(`placeholder`, `${json["HostName"]}:${json["IPv4Port"]}`);
 
 
             var time = document.getElementById("time");
