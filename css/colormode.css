@@ -22,7 +22,7 @@ html:not(.dark-mode) .dark-only {
 }
 
 .dark-mode .header-scrolled {
-    background-color: black !IMPORTANT;
+    background-color: #121212 !IMPORTANT;
 }
 
 .dark-mode li {
