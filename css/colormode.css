@@ -1,0 +1,72 @@
+.dark-mode .light-only {
+    display: none;
+}
+
+html:not(.dark-mode) .dark-only {
+    display: none;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode body {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode #header .logo h1 a,
+#header .logo h1 a:hover {
+    color: white !IMPORTANT;
+}
+
+.dark-mode .header-scrolled {
+    background-color: black !IMPORTANT;
+}
+
+.dark-mode li {
+    color: white !important;
+}
+
+.dark-mode button {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.dark-mode .main-menu {
+    background-color: black;
+}
+
+.dark-mode a {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.dark-mode .mobile-nav {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .mobile-nav-toggle::before {
+    color: white !IMPORTANT;
+}
+
+.dark-mode .icofont-navigation-menu:before {
+    color: white;
+}
+
+.dark-mode #footer {
+    color: white;
+    background-color: #121212;
+}
+
+.dark-mode #footer a {
+    color: white;
+}
+
+.dark-mode .btn:hover {
+    color: white;
+}
