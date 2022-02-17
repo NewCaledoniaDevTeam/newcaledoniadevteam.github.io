@@ -20,7 +20,7 @@ jobs:
         uses: cicirello/generate-sitemap@v1
         with:
           base-url-path: https://newcaledonia.us/
-          include-html: false
+          # include-html: false
           
       - name: Get Hash
         id: hash
