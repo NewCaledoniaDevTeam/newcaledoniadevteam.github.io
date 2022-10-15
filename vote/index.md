@@ -29,17 +29,17 @@ layout: default
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://newcaledonia.us/vote/">
+    <meta property="og:url" content="{{ "/vote/" | absolute_url }}">
     <meta property="og:title" content="New Caledonia - Voting Ballot">
     <meta property="og:description" content="New Caledonia is a new, ambitious nation that is run entirely in Minecraft. It is a republic run entirely by youth. On this web page, you will find the New Caledonia Times, future public works projects, laws, sports events, and everything you need to know about New Caledonia.">
-    <meta property="og:image" content="https://newcaledonia.us/images/logo.jpg">
+    <meta property="og:image" content="{{ "/images/vote.png" | absolute_url }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://newcaledonia.us/vote/">
+    <meta property="twitter:url" content="{{ "/vote/" | absolute_url }}">
     <meta property="twitter:title" content="New Caledonia - Voting Ballot">
     <meta property="twitter:description" content="New Caledonia is a new, ambitious nation that is run entirely in Minecraft. It is a republic run entirely by youth. On this web page, you will find the New Caledonia Times, future public works projects, laws, sports events, and everything you need to know about New Caledonia.">
-    <meta property="twitter:image" content="https://newcaledonia.us/images/logo.jpg">
+    <meta property="twitter:image" content="{{ "/images/vote.png" | absolute_url }}">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
