@@ -1,0 +1,9 @@
+body {
+  color: #fff;
+  background: hsl(227, 10%, 10%);
+  font: 300 1em 'Fira Sans', sans-serif;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+  color: #fff;
+}
