@@ -15,14 +15,14 @@ layout: default
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ "/shrewsbuquerque/FAQ/" | absolute_url }}">
+    <meta property="og:url" content="{{ "/shrewsbuquerque/faq/" | absolute_url }}">
     <meta property="og:title" content="Shrewsbuquerque - Frequently Asked Questions">
     <meta property="og:description" content="Shrewsbuquerque: The superior province of Darzos">
     <meta property="og:image" content="{{ "/shrewsbuquerque/logo/logo.png" | absolute_url }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ "/shrewsbuquerque/FAQ/" | absolute_url }}">
+    <meta property="twitter:url" content="{{ "/shrewsbuquerque/faq/" | absolute_url }}">
     <meta property="twitter:title" content="Shrewsbuquerque - Frequently Asked Questions">
     <meta property="twitter:description" content="Shrewsbuquerque: The superior province of Darzos">
     <meta property="twitter:image" content="{{ "/shrewsbuquerque/logo/logo.png" | absolute_url }}">
