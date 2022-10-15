@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+---
+layout: default
+---
+
 <html lang="en">
 
 <head>
@@ -6,17 +9,17 @@
     <!--<meta http-equiv="refresh" content="7; url='https://docs.google.com/forms/d/e/1FAIpQLSd1th07BVxOHyEFIJ-NK9MPqXFJM6HPrT4NIi62UM-2XsWfGg/viewform'" />-->
 
     <!--Favicon Information-->
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=21722">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=21722">
-    <link rel="icon" type="image/png" sizes="194x194" href="/favicon/favicon-194x194.png?v=21722">
-    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png?v=21722">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=21722">
-    <link rel="manifest" href="/favicon/site.webmanifest?v=21722">
-    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=21722" color="#ca5a4f">
-    <link rel="shortcut icon" href="/favicon/favicon.ico?v=21722">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "/favicon/apple-touch-icon.png?v=21722" | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon/favicon-32x32.png?v=21722" | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="194x194" href="{{ "/favicon/favicon-194x194.png?v=21722" | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ "/favicon/android-chrome-192x192.png?v=21722" | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon/favicon-16x16.png?v=21722" | absolute_url }}">
+    <link rel="manifest" href="{{ "/favicon/site.webmanifest?v=21722" | absolute_url }}">
+    <link rel="mask-icon" href="{{ "/favicon/safari-pinned-tab.svg?v=21722" | absolute_url }}" color="#ca5a4f">
+    <link rel="shortcut icon" href="{{ "/favicon/favicon.ico?v=21722" | absolute_url }}">
     <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=21722">
-    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=21722">
+    <meta name="msapplication-TileImage" content="{{ "/favicon/mstile-144x144.png?v=21722" | absolute_url }}">
+    <meta name="msapplication-config" content="{{ "/favicon/browserconfig.xml?v=21722" | absolute_url }}">
     <meta name="theme-color" content="#ca5a4f">
 
     <!-- Primary Meta Tags -->
