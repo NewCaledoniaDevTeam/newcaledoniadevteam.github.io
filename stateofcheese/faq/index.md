@@ -15,14 +15,14 @@ layout: default
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ "/stateofcheese/" | absolute_url }}">
+    <meta property="og:url" content="{{ "/stateofcheese/faq/" | absolute_url }}">
     <meta property="og:title" content="State of Cheese - FAQ">
     <meta property="og:description" content="State of Cheese - FAQ">
     <meta property="og:image" content="{{ "/stateofcheese/logo.png" | absolute_url }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{{ "/stateofcheese/" | absolute_url }}">
+    <meta property="twitter:url" content="{{ "/stateofcheese/faq/" | absolute_url }}">
     <meta property="twitter:title" content="State of Cheese - FAQ">
     <meta property="twitter:description" content="State of Cheese - FAQ">
     <meta property="twitter:image" content="{{ "/stateofcheese/logo.png" | absolute_url }}">
