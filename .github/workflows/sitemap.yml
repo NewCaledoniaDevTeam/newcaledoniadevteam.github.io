@@ -11,20 +11,20 @@ jobs:
     name: Generate a sitemap
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
          fetch-depth: 0 
      
       - name: Get Hash
         id: hash
-        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+        run: echo "hash=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
      
       - name: Sigin to git and remove old sitemap
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git rm sitemap.xml
-          git commit -m "Remove Sitemap - ${{ steps.hash.outputs.sha_short }}"
+          git commit -m "Remove Sitemap - ${{ env.hash }}"
       
       - name: Generate the sitemap
         id: sitemap
@@ -36,5 +36,5 @@ jobs:
       - name: Sigin to git
         run: |
           git add sitemap.xml
-          git commit -m "Update Sitemap - ${{ steps.hash.outputs.sha_short }}"
+          git commit -m "Update Sitemap - ${{ env.hash }}"
           git push
