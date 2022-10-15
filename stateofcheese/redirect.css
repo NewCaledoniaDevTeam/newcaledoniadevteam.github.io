@@ -1,0 +1,13 @@
+body {
+    color: #4b4139;
+    background: #edead9;
+    font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #4b4139;
+}
