@@ -30,8 +30,8 @@ jobs:
         id: sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://newcaledonia.us/
-          # include-html: false
+          base-url-path: https://newcaledoniadevteam.github.io/NewCalWebsite/
+          include-html: true
           
       - name: Sigin to git
         run: |
