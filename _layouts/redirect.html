@@ -58,7 +58,7 @@
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-                    <li class="breadcrumb-item"><a href="https://dash.newcaledonia.us/">Home</a></li> {% for crumb in crumbs offset: 1 %} {% if forloop.last %} <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li> {% else %}
+                    <li class="breadcrumb-item"><a href="https://github.com/newCaledoniaDevTeam/">Home</a></li> {% for crumb in crumbs offset: 1 %} {% if forloop.last %} <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li> {% else %}
                     <li class="breadcrumb-item"><a
                         href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{
                         crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li> {% endif %} {% endfor %}
@@ -95,7 +95,7 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 text-lg-left text-center">
                     <div class="copyright">
-                        Maintain by <a href="https://mountaintopofficial.ml/"><strong>Mountain Top</strong></a>. All Rights Reserved
+                        Maintain by <a href="https://github.com/newCaledoniaDevTeam/"><strong>Mountain Top</strong></a>. All Rights Reserved
                     </div>
                 </div>
             </div>
