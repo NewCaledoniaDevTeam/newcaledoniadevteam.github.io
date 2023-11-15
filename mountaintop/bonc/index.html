@@ -2,86 +2,342 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="7; url='https://mountaintopofficial.ml/bonc/'" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>BONC - Mountain Top</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/vendor/Bootstrap-Cookie-Alert/cookiealert.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/colormode.css" />
+    <link rel="stylesheet" href="/vendor/mc-icon/mc-icons.css">
 
     <!--Favicon Information-->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mountaintopofficial.ml/favicon/apple-touch-icon.png?v=PYAgOPKK4x">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://mountaintopofficial.ml/favicon/favicon-32x32.png?v=PYAgOPKK4x">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://mountaintopofficial.ml/favicon/favicon-16x16.png?v=PYAgOPKK4x">
-    <link rel="manifest" href="https://mountaintopofficial.ml/favicon/site.webmanifest?v=PYAgOPKK4x">
-    <link rel="mask-icon" href="https://mountaintopofficial.ml/favicon/safari-pinned-tab.svg?v=PYAgOPKK4x" color="#5f5f5f">
-    <link rel="shortcut icon" href="https://mountaintopofficial.ml/favicon/favicon.ico?v=PYAgOPKK4x">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=PYAgOPKK4x">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=PYAgOPKK4x">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=PYAgOPKK4x">
+    <link rel="manifest" href="/favicon/site.webmanifest?v=PYAgOPKK4x">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=PYAgOPKK4x" color="#5f5f5f">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=PYAgOPKK4x">
     <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="https://mountaintopofficial.ml/favicon/mstile-144x144.png?v=PYAgOPKK4x">
-    <meta name="msapplication-config" content="https://mountaintopofficial.ml/favicon/browserconfig.xml?v=PYAgOPKK4x">
+    <meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png?v=PYAgOPKK4x">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=PYAgOPKK4x">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Primary Meta Tags -->
-    <title>New Caledonia - BONC</title>
-    <meta name="title" content="New Caledonia - BONC">
-    <meta name="description" content="The mountains are calling, join them. Create a better experience for New Caledonia with us. Not just for you but for everyone.">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://newcaledonia.us/mountaintop/bonc/">
-    <meta property="og:title" content="New Caledonia - BONC">
-    <meta property="og:description" content="The mountains are calling, join them. Create a better experience for New Caledonia with us. Not just for you but for everyone.">
-    <meta property="og:image" content="https://mountaintopofficial.ml/bonc/img/image0.jpg">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://newcaledonia.us/mountaintop/bonc/">
-    <meta property="twitter:title" content="New Caledonia - BONC">
-    <meta property="twitter:description" content="The mountains are calling, join them. Create a better experience for New Caledonia with us. Not just for you but for everyone.">
-    <meta property="twitter:image" content="https://mountaintopofficial.ml/bonc/img/image0.jpg">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
-    <link href="/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="/css/style.css" rel="stylesheet">
-
-    <link href="/css/colormode.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/js/colormode.js "></script>
-    <script src="/js/navbar.js "></script>
+    <script>
+        // Do this before the body gets parsed
+        if (localStorage.getItem('darkmode') === '1') {
+            document.documentElement.classList.add('dark-mode');
+        }
+    </script>
+    <style>
+        .dark-mode body {
+            background: black;
+        }
+        
+        .dark-mode .light-only {
+            display: none;
+        }
+        
+        html:not(.dark-mode) .dark-only {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
+    <div id="home"></div>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center" data-aos="zoom-out-down">
+    <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center">
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="https://dash.newcaledonia.us/">Home</a></li>
-                    <li class="breadcrumb-item"><a href="https://mountaintopofficial.ml">Mountain Top</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">BONC</li>
-                </ol>
+
+            <div class="logo me-auto">
+                <h1 class="text-light"><a href="#"><span>BONC</span></a></h1>
+            </div>
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#home">Home</a></li>
+                    <!--<li><a href="#about">About</a></li>-->
+                    <li><a href="#commands">Commands</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <!--<<li><a href="#faq">FAQ</a></li>-->
+                    <li class="get-started btn" id="darkToggle" ontouchstart="touchDark()">Switch to <span class=" dark-only">light</span><span class="light-only">dark</span>mode</li>
+                </ul>
             </nav>
+            <!-- .nav-menu -->
+
         </div>
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="get-started btn" id="darkToggle" ontouchstart="touchDark()" onclick="touchDark();">Switch to
-                    <span class=" dark-only">light</span><span class="light-only">dark</span>mode
-                </li>
-            </ul>
-        </nav>
     </header>
     <!-- End Header -->
 
-    <div class="container my-4">
-        <div class="p-3 mb-4">
-            <div class="text-center">
-                <br>
-                <br>
-                <p>Redirecting you to <a href="https://mountaintopofficial.ml/bonc/">mountaintopofficial.ml/bonc/</a>
-                </p>
-                <a href="https://mountaintopofficial.ml/bonc/"><img src="https://api.screenshotmachine.com/?key=1e29b0&url=https://mountaintopofficial.ml/bonc/?usp=sharing&device=desktop&dimension=1024x768&format=jpg&cacheLimit=30&delay=9000" class="img-fluid" alt="screenshot" /></a>
-                <br>
-                <br>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up">Wealth is the ability to fully experience life.</h1>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Manage your currency on the go, from anywhere, at anytime.</h2>
+                    <div data-aos="fade-up" data-aos-delay="800">
+                        <a href="https://forms.gle/ztcVvQK6xAA8dtoY6" class="btn-get-started scrollto" target="_blank">Apply for Account</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                    <img src="img/hero-img.png" class="img-fluid animated" alt="" style="height: auto;">
+                </div>
             </div>
         </div>
-    </div>
+
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- Toasts-->
+        <!--<div class="toast-container">
+            <div class="position-fixed end-0 p-3" style="z-index: 5; bottom: 50px;">
+
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                    <div class="toast-header">
+                        <img src="/img/toast_xp.png" class="rounded me-2" alt="...">
+                        <strong class="me-auto">Double XP Week</strong>
+                        <small>April 21st 2021</small>
+                        <button type="button" class="btn-close btn-toast" data-bs-dismiss="toast" aria-label="Close" onclick="toastHide();"></button>
+                    </div>
+                    <div class="toast-body">
+                        In the spirit of Councilman Saucer rejoining New Caledonia from his long break, Mountain Top decided to make every message count as two.
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+                    <div class="toast-header">
+                        <img src="/img/toast_bonc.png" class="rounded me-2" alt="...">
+                        <strong class="me-auto">BONC</strong>
+                        <small>April 21st 2021</small>
+                        <button type="button" class="btn-close btn-toast" data-bs-dismiss="toast" aria-label="Close" onclick="toastHide();"></button>
+                    </div>
+                    <div class="toast-body">
+                        The new BONC banking system will be released soon along with the return of the CEO of Mountain Top.
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <!-- ======= About Us Section ======= -->
+        <!--
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>About Us</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <ul>
+                            <li><i class="ri-check-double-line"></i> Secure</li>
+                            <li><i class="ri-check-double-line"></i> Easy to use</li>
+                            <li><i class="ri-check-double-line"></i> Ease of mind</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                        <p>
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                            id est laborum.
+                        </p>
+                        <div data-aos="fade-up" data-aos-delay="800" class="aos-init aos-animate">
+                            <a href="https://forms.gle/ztcVvQK6xAA8dtoY6" class="btn-learn-more scrollto" target="_blank">Apply for Account</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        -->
+        <!-- End About Us Section -->
+
+        <!-- ======= Commands Section ======= -->
+        <!-- icons: https://remixicon.com/ --->
+        <section id="commands" class="features">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Commands</h2>
+                    <p>Here are the commands for the BONC bot [m!]:</p>
+                </div>
+
+                <div class="row justify-content-md-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="icon-box">
+                            <span class="mc-icon-32 mc-icon-emerald"></span>
+                            <h3 style="padding-left: 10px;">pay <span style="color: #7289da; font-family: Whitney, 'Helvetica Neue', Helvetica, Arial;">@user</span> amount </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <span class="mc-icon-32 mc-icon-book_normal"></span>
+                            <h3 style="padding-left: 10px;">balance</h3>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div class="icon-box">
+                            <span class="mc-icon-32  mc-icon-bookshelf"></span>
+                            <h3 style="padding-left: 10px;">census</h3>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <!-- End Features Section -->
+
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team section-bg">
+            <div class="container">
+
+                <div class="section-title" data-aos="fade-up">
+                    <h2>Team</h2>
+                    <p>Meet our hard-working team, trying to deliver the best experience for you.</p>
+                </div>
+
+                <div class="row justify-content-center">
+
+                    <!-- Alan Saucer -->
+                    <div class="tilt col-lg-3 col-md-6 d-flex align-items-stretch" data-tilt data-tilt-glare="false" ata-tilt-speed="400" data-tilt-scale="1.1" data-tilt-maxtilt="50" data-tilt-perspective="500">
+                        <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="member-img">
+                                <img src="/img/team/team-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Alan Saucer</h4>
+                                <span>CEO</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bot -->
+                    <div class="tilt col-lg-3 col-md-6 d-flex align-items-stretch" data-tilt data-tilt-glare="false" ata-tilt-speed="400" data-tilt-scale="1.1" data-tilt-maxtilt="50" data-tilt-perspective="500">
+                        <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="member-img">
+                                <img src="img/image0.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>BONC Bot</h4>
+                                <span>Bank Teller</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alex Team Member
+                    <div class="tilt col-lg-3 col-md-6 d-flex align-items-stretch" data-tilt data-tilt-glare="false" data-tilt-speed="400" data-tilt-scale="1.1" data-tilt-maxtilt="50" data-tilt-perspective="500">
+                        <div class="member" data-aos="fade-up" data-aos-delay="200">
+                            <div class="member-img">
+                                <img src="/img/team/team-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Alex Snyder</h4>
+                                <span>Teller</span>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Team Section -->
+
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <!--
+        <section id="faq" class="faq section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Why use BONC? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                                <p>
+                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
+                                    molestie at elementum eu facilisis sed odio morbi quis
+                                </p>
+                            </div>
+                        </li>
+                        End F.A.Q Item
+
+        <li data-aos="fade-up" data-aos-delay="300">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">What currency does BONC use? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+                </p>
+            </div>
+        </li>
+        End F.A.Q Item
+
+        <li data-aos="fade-up" data-aos-delay="400">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">How does the BONC Bot going to work? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                </p>
+            </div>
+        </li>
+        End F.A.Q Item
+
+        <li data-aos="fade-up">
+            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">What is the parent company, Mountain Top?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                    We are the company that maintains New Caledonia's digital products. Moreover, Mountain Top owns the majority of New Caledonia's digital products. We own Redstone Solutions, Channel 4 News, Bank of New Caledonia, Slots, and LoL, LLC. To learn more please
+                    visit the <a href="/" class="faqlink scrollto">Main Site</a>.
+                </p>
+            </div>
+        </li>
+        <End F.A.Q Item
+
+        </ul>
+        </div>
+
+        </div>
+        </section>
+        </div>
+        </section>
+        -->
+        <!-- End F.A.Q Section -->
+
+    </main>
+    <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
@@ -89,8 +345,16 @@
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 text-lg-left text-center">
                     <div class="copyright">
-                        Maintain by <a href="https://mountaintopofficial.ml/"><strong>Mountain Top</strong></a>. All Rights Reserved
+                        Maintain by <a href="/?toast=read"><strong>Mountain Top</strong></a>. All Rights Reserved
                     </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+                        <a href="/?toast=read" class="scrollto">Home</a>
+                        <a href="#about" class="scrollto">About</a>
+                        <a href="/policies/Privacy.html">Privacy Policy</a>
+                        <a href="/policies/terms.html">Terms of Use</a>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -99,15 +363,73 @@
 
     <!-- START Bootstrap-Cookie-Alert -->
     <div class="alert text-center cookiealert" role="alert">
-        <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website.
-        <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+        <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
 
         <button type="button" class="btn btn-primary btn-sm acceptcookies">
-            I agree
-        </button>
+        I agree
+    </button>
     </div>
     <!-- END Bootstrap-Cookie-Alert -->
-    <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+
+    <a href="# " class="back-to-top "><i class="icofont-simple-up "></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="/vendor/jquery/jquery.min.js "></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js "></script>
+    <script src="/vendor/jquery.easing/jquery.easing.min.js "></script>
+    <script src="/vendor/waypoints/jquery.waypoints.min.js "></script>
+    <script src="/vendor/counterup/counterup.min.js "></script>
+    <script src="/vendor/owl.carousel/owl.carousel.min.js "></script>
+    <script src="/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+    <script src="/vendor/venobox/venobox.min.js "></script>
+    <script src="/vendor/aos/aos.js "></script>
+    <script src="/vendor/Bootstrap-Cookie-Alert/cookiealert.js "></script>
+    <script src="/vendor/Tilt.js/tilt.jquery.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/js/main.js "></script>
+
+    <script>
+        $(document).ready(function() {
+            const {
+                search
+            } = window.location;
+            const toast = (new URLSearchParams(search)).get('toast');
+            if (toast === 'read') {
+                // The page was just reloaded, display the toast:
+                $(".toast").addClass("hide");
+                $('.toast').toast('hide');
+                return;
+            }
+
+            $('.toast').toast('show');
+        });
+
+        var btnPress = 0;
+
+        function toastHide() {
+            btnPress++;
+            if (btnPress === 1) {
+                window.location.href = window.location.pathname + '?toast=read';
+            }
+        }
+    </script>
+
+    <script>
+        document.querySelector('#darkToggle').addEventListener('click', function() {
+            var wasDarkMode = localStorage.getItem('darkmode') === '1';
+
+            localStorage.setItem('darkmode', wasDarkMode ? '0' : '1');
+            document.documentElement.classList[wasDarkMode ? 'remove' : 'add']('dark-mode');
+        });
+
+        function touchDark() {
+            var wasDarkMode = localStorage.getItem('darkmode') === '1';
+
+            localStorage.setItem('darkmode', wasDarkMode ? '0' : '1');
+            document.documentElement.classList[wasDarkMode ? 'remove' : 'add']('dark-mode');
+        };
+    </script>
 
 </body>
 
