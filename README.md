@@ -4,4 +4,4 @@ New Caledonia is a new, ambitious nation that is run entirely in Minecraft. It i
 
 ![images/logo.jpg](images/logo.jpg)
 
-- [newcaledoniadevteam.github.io/NewCalWebsite/](https://newcaledoniadevteam.github.io/NewCalWebsite/)
+- [newcaledoniadevteam.github.io](https://newcaledoniadevteam.github.io)
