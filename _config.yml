@@ -22,7 +22,7 @@ title: New Caledonia
 email: newcaledoniamainframe@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   New Caledonia is a new, ambitious nation that is run entirely in Minecraft. It is a republic run entirely by youth. On this web page, you will find the New Caledonia Times, future public works projects, laws, sports events, and everything you need to know about New Caledonia.
-baseurl: "/NewCalWebsite" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://newcaledoniadevteam.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NewCalOfficial
 github_username:  NewCaledoniaDevTeam
