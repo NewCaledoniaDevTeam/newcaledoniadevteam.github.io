@@ -13,17 +13,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-         fetch-depth: 0 
+          fetch-depth: 0 
      
       - name: Get Hash
         id: hash
         run: echo "hash=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
      
-      - name: Sigin to git and remove old sitemap
+      - name: Sign to git and remove old sitemap
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git rm sitemap.xml
+          rm sitemap.xml
           git commit -m "Remove Sitemap - ${{ env.hash }}"
       
       - name: Generate the sitemap
@@ -33,7 +33,7 @@ jobs:
           base-url-path: https://newcaledoniadevteam.github.io/NewCalWebsite/
           include-html: false
           
-      - name: Sigin to git
+      - name: Sign to git
         run: |
           git add sitemap.xml
           git commit -m "Update Sitemap - ${{ env.hash }}"
