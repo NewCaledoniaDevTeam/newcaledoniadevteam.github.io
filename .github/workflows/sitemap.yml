@@ -24,6 +24,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           rm sitemap.xml
+          git add sitemap.xml
           git commit -m "Remove Sitemap - ${{ env.hash }}"
       
       - name: Generate the sitemap
