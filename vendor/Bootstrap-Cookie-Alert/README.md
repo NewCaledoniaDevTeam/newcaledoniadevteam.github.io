@@ -1,3 +1,6 @@
+---
+sitemap: false
+---
 # Bootstrap-Cookie-Alert
 A simple, good looking cookie alert for Bootstrap. No dependencies required.<br>
 **We recommend using Bootstrap 4**, but Boostrap 3 should work fine as well.
