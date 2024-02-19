@@ -1,0 +1,173 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#wrapper {
+    background: none;
+    height: 100%;
+    transform: scale(.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    perspective: 1000px;
+    height: 100%;
+    background-color: black !important;
+}
+
+@-webkit-keyframes turn {
+    100% {
+        transform: rotateY(30deg);
+    }
+    0% {
+        transform: rotateY(-30deg);
+    }
+}
+
+@-moz-keyframes turn {
+    100% {
+        transform: rotateY(30deg);
+    }
+    0% {
+        transform: rotateY(-30deg);
+    }
+}
+
+@keyframes turn {
+    100% {
+        transform: rotateY(30deg);
+    }
+    0% {
+        transform: rotateY(-30deg);
+    }
+}
+
+#deathStar {
+    animation-name: turn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    transform-style: preserve-3d;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#star {
+    position: relative;
+    margin: 50px auto 50px;
+    width: 500px;
+    height: 500px;
+    transform-style: preserve-3d;
+    transition: none;
+    transform: rotateX(60deg);
+}
+
+.anim {
+    transition: all 1s ease-out !important;
+}
+
+.trench_wall {
+    background-clip: padding-box;
+    background-clip: padding;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: rgba(0, 0, 0, 0);
+    width: 490px;
+    height: 490px;
+    border-radius: 300px;
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden;
+    border: 3px solid #FFE81F !important;
+}
+
+.north {
+    transform: translate3d(0, 0, 5px);
+}
+
+.south {
+    transform: translate3d(0, 0, -5px);
+}
+
+.latitude_line {
+    position: absolute;
+    border-radius: 300px;
+    transform-style: preserve-3d;
+    background: rgba(100, 100, 100, 0.5);
+    width: 0px;
+    height: 0px;
+    border: 3px solid #FFE81F !important;
+    border-radius: 500px;
+    opacity: 1;
+    transition: all 1s bicubic;
+}
+
+.east,
+.west {
+    border: 2px solid #FFE81F !important;
+    opacity: .5;
+    background: none;
+}
+
+#lat_3_n {
+    clip: rect(0px, 500px, 465px, 0);
+}
+
+#lat_4_n {
+    clip: rect(0px, 500px, 441px, 0);
+}
+
+#lat_5_n {
+    clip: rect(0px, 500px, 413px, 0);
+}
+
+#lat_6_n {
+    clip: rect(0px, 500px, 381px, 0);
+}
+
+#lat_7_n {
+    clip: rect(0px, 500px, 344px, 0);
+}
+
+.active {
+    opacity: 1;
+}
+
+.longitude_line {
+    position: absolute;
+    border-radius: 300px;
+    transform-style: preserve-3d;
+    background: rgba(0, 0, 0, 0);
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+    border: 3px solid #FFE81F !important;
+}
+
+.gun_line {
+    position: absolute;
+    border-radius: 300px;
+    transform-style: preserve-3d;
+    background: rgba(0, 0, 0, 0);
+    width: 0px;
+    height: 0px;
+    border: 2px solid #FFE81F !important;
+}
+
+@media screen and (min-width: 768px) {
+    .starfield.star-left {
+        height: 1900px;
+    }
+    .starfield.star-right {
+        height: 1900px;
+    }
+}
