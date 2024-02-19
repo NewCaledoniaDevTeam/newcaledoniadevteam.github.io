@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'In your face, Joffrey!';
+    src: url('fonts/In_your_face__Joffrey__.eot');
+    src: url('fonts/In_your_face__Joffrey__.eot?#iefix') format('embedded-opentype'), url('fonts/In_your_face__Joffrey__.woff2') format('woff2'), url('fonts/In_your_face__Joffrey__.woff') format('woff'), url('fonts/In_your_face__Joffrey__.ttf') format('truetype'), url('fonts/In_your_face__Joffrey__.svg#In_your_face__Joffrey__') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background: black;
+    border: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+}
+
+#stars {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -5;
+}
+
+.logo {
+    position: relative;
+    width: 20vw;
+    /*top: 200px;*/
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        width: 100%;
+    }
+    .settingsIconMainMenu {
+        top: 25px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .settingsIconMainMenu {
+        margin-right: 100px;
+        top: -25px;
+    }
+}
+
+.btn {
+    font-family: 'In your face, Joffrey!';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    width: 150px;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.hide {
+    display: none!important
+}
+
+h1 {
+    color: #f8f9fa;
+    font-family: 'In your face, Joffrey!';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 120px;
+}
+
+h3 {
+    color: #f8f9fa;
+    font-family: 'In your face, Joffrey!';
+    font-weight: 500;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.mainMenuButtons {
+    margin: auto;
+    max-width: 500px;
+}

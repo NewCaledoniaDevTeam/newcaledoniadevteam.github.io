@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Reactor - Among Us Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../nav.css">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Reactor - Among Us Project">
+    <meta name="description" content="An unmodded NCGA project for among us in Minecraft.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://newcaledoniadevteam.github.io/amongusproject/reactor/">
+    <meta property="og:title" content="Reactor - Among Us Project">
+    <meta property="og:description" content="An unmodded NCGA project for among us in Minecraft.">
+    <meta property="og:image" content="https://newcaledoniadevteam.github.io/amongusproject/images/logo.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:url" content="https://newcaledoniadevteam.github.io/amongusproject/reactor/">
+    <meta property="twitter:title" content="Reactor - Among Us Project">
+    <meta property="twitter:description" content="An unmodded NCGA project for among us in Minecraft.">
+    <meta property="twitter:image" content="https://newcaledoniadevteam.github.io/amongusproject/images/logo.png">
+
+    <!--Favicon Information-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#000000">
+    <link rel="shortcut icon" href="../favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-config" content="../favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+    <div id="navContainer">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" id="myCheckbox1" />
+                <label for="myCheckbox1"><img src="../images/settings.png" class="settingsIcon"></label>
+                <ul id="menu">
+                    <a href="../" class="btn btn-outline-light">
+                        <li>Home</li>
+                    </a><br><br>
+                    <a href="../card/" class="btn btn-outline-light">
+                        <li>Card</li>
+                    </a> <br><br>
+                    <a href="../count/" class="btn btn-outline-light">
+                        <li>Count</li>
+                    </a> <br><br>
+                    <a href="../reactor/" class="btn btn-outline-light">
+                        <li>Reactor</li>
+                    </a> <br><br>
+                    <a href="../wires/" class="btn btn-outline-light">
+                        <li>Wires</li>
+                    </a> <br><br>
+                    <a href="../player/" class="btn btn-outline-light">
+                        <li>Player</li>
+                    </a> <br><br>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="content">
+        <div class="outerdiv">
+            <div class="innerbox">
+                <div class="databox">
+                    <div class="topline">
+                        <button id="startgame" class="btn btn-primary float-end hide">Start</button>
+                    </div>
+                </div>
+                <div class="gamebox">
+                    <div class="reactor">
+                        <div class="task_comp">
+                            <p>Task Complete!</p>
+                        </div>
+                        <div class="leftside">
+                            <div class="mainpanel" id="mainpanel">
+                                <div class="ledbar">
+                                    <div class="eachled" id="ol1">
+                                    </div>
+                                    <div class="eachled" id="ol2">
+                                    </div>
+                                    <div class="eachled" id="ol3">
+                                    </div>
+                                    <div class="eachled" id="ol4">
+                                    </div>
+                                    <div class="eachled" id="ol5">
+                                    </div>
+                                </div>
+                                <div class="obuttonbox">
+                                    <div class="obuttoneachline">
+                                        <div class="obutton" id="ob1"></div>
+                                        <div class="obutton" id="ob2"></div>
+                                        <div class="obutton" id="ob3"></div>
+                                    </div>
+                                    <div class="obuttoneachline">
+                                        <div class="obutton" id="ob4"></div>
+                                        <div class="obutton" id="ob5"></div>
+                                        <div class="obutton" id="ob6"></div>
+                                    </div>
+                                    <div class="obuttoneachline">
+                                        <div class="obutton" id="ob7"></div>
+                                        <div class="obutton" id="ob8"></div>
+                                        <div class="obutton" id="ob9"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rightside">
+                            <div class="mainpanel">
+                                <div class="ledbar">
+                                    <div class="eachled rled" id="il1">
+                                    </div>
+                                    <div class="eachled rled" id="il2">
+                                    </div>
+                                    <div class="eachled rled" id="il3">
+                                    </div>
+                                    <div class="eachled rled" id="il4">
+                                    </div>
+                                    <div class="eachled rled" id="il5">
+                                    </div>
+                                </div>
+                                <div class="iobuttonbox">
+                                    <div class="obuttoneachline">
+                                        <div class="ibutton" id="ib1"></div>
+                                        <div class="ibutton" id="ib2"></div>
+                                        <div class="ibutton" id="ib3"></div>
+                                    </div>
+                                    <div class="obuttoneachline">
+                                        <div class="ibutton" id="ib4"></div>
+                                        <div class="ibutton" id="ib5"></div>
+                                        <div class="ibutton" id="ib6"></div>
+                                    </div>
+                                    <div class="obuttoneachline">
+                                        <div class="ibutton" id="ib7"></div>
+                                        <div class="ibutton" id="ib8"></div>
+                                        <div class="ibutton" id="ib9"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
