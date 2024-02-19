@@ -26,6 +26,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://newcaledoniadevteam.github.io # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NewCalOfficial
 github_username:  NewCaledoniaDevTeam
+plugins:
+  - jekyll-readme-index
+  - jekyll-sitemap
 
 # Build settings
 readme_index:
