@@ -1,0 +1,68 @@
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode .main-menu {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .main-menu li a {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .portfolio-filter li.mixitup-control-active {
+    color: white;
+}
+
+.dark-mode button {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+.dark-mode .pic-frame:after {
+    border: 2px solid white;
+}
+
+.dark-mode .main-menu {
+    background-color: black;
+}
+
+.dark-mode a {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .lol_logo {
+    background-image: url("/lol/img/business/LoL.png");
+    background-color: black;
+}
+
+.dark-mode .hayden_logo {
+    background-image: url("/hayden/img/Hayden_Graphics_Company.dark.png");
+    background-color: black;
+}
+
+.dark-mode #preloder {
+    background: black !important;
+}
+
+.dark-mode .loader {
+    border: 3px solid #fff !important;
+    border-left-color: transparent !important;
+}
+
+.dark-mode .social-links a {
+    color: #979797;
+}
+
+.dark-mode .mfp-close {
+    background-color: rgba(0, 0, 0, 0);
+}
