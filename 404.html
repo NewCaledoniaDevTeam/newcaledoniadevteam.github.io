@@ -494,6 +494,14 @@
 
     </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        // Try to find the page (lowercase)
+        window.onload = () => {
+            currentURL = window.location.href;
+            lowerCaseURL = currentURL.toLowerCase();
+            if (currentURL != lowerCaseURL) location.replace(lowerCaseURL);
+        };
+    </script>
 </body>
 
 </html>
