@@ -122,18 +122,26 @@ layout: default
                 <!-- Version -->
                 <table class='downloadTable mainTable'>
                     <tr class='downloadLine downloadLineMain'>
-                        <td class='colFile'>1.5.1 Universal Shader</td>
-                        <td class='colDownload'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/tag/1.5.1" target="_blank">Download</a></td>
-                        <td class='colMirror'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/download/1.5.1/New.Caledonia.Universal.1.5.1.mcpack" target="_blank">mcpack</a></td>
+                        <td class='colFile'>1.5.2 Universal Shader</td>
+                        <td class='colDownload'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/tag/1.5.2" target="_blank">Download</a></td>
+                        <td class='colMirror'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/download/1.5.2/New.Caledonia.Universal.1.5.2.mcpack" target="_blank">mcpack</a></td>
                         <td class='colMedia'></td>
-                        <td class="colChangelog"><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/blob/main/Changelog.md#151---2021-1-5" target="_blank">Changelog</a></td>
-                        <td class="colDate">1/5/21</td>
+                        <td class="colChangelog"><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/blob/main/Changelog.md#152---2024-3-19" target="_blank">Changelog</a></td>
+                        <td class="colDate">3/19/24</td>
                     </tr>
                 </table>
                 <!-- More Old -->
                 <a class="spoilerLink" id="link.1.5.more" href="javascript:showSpoiler('more.1.5', 'link.1.5.more', 'true');">+ More</a>
                 <div id="more.1.5" style='position: absolute; visibility: hidden; opacity: 0; transition: opacity 0.5s; overflow: hidden;'>
                     <table class='downloadTable'>
+                        <tr class='downloadLine downloadLineMore'>
+                            <td class='colFile'>1.5.1 Universal Shader</td>
+                            <td class='colDownload'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/tag/1.5.1" target="_blank">Download</a></td>
+                            <td class='colMirror'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/download/1.5.1/New.Caledonia.Universal.1.5.1.mcpack" target="_blank">mcpack</a></td>
+                            <td class='colMedia'></td>
+                            <td class="colChangelog"><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/blob/main/Changelog.md#151---2021-1-5" target="_blank">Changelog</a></td>
+                            <td class="colDate">1/5/21</td>
+                        </tr>
                         <tr class='downloadLine downloadLineMore'>
                             <td class='colFile'>1.5.0 Universal Shader</td>
                             <td class='colDownload'><a href="https://github.com/NewCaledoniaDevTeam/BETA_UniversalShaderPack/releases/tag/1.5.0" target="_blank">Download</a></td>
